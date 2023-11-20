@@ -1,0 +1,93 @@
+.upper-div {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 236, 236);
+  padding: 10px;
+}
+
+.upper-div>.display-button {
+  margin-left: 2em;
+  margin-top: 0.5em;
+  padding: 0.4em;
+  width: 7%;
+}
+
+.upper-div>.dropdown-menu {
+  /* margin-top: 0.5em; */
+  border: 1px solid black;
+  padding: 10px;
+  width: 15%;
+  border-radius: 4px;
+  background-color: rgb(240, 236, 236);
+  position: absolute;
+  top: 4em;
+  left: 2.2em;
+}
+
+.upper-div>.dropdown-menu>.dropdown-element {
+  display: flex;
+  padding: 0.5em;
+  justify-content: space-between;
+}
+
+.upper-div>.dropdown-menu>.dropdown-element>select {
+  width: 50%;
+  border-radius: 4px;
+  outline: none !important;
+}
+
+.upper-div>.dropdown-menu>.dropdown-element>label {
+  color: gray;
+}
+
+.lower-div {
+  padding: 2em;
+}
+
+.tickets {
+  /* display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap; */
+  display: grid;
+  columns: 5;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.ticket-title {
+  width: 70%;
+  margin-left: 0.2em;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-title>div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image1 {
+  height: 15px;
+  width: 12px;
+  margin-left: 15px;
+}
+
+.image2 {
+  height: 15px;
+  width: 12px;
+  margin-right: 7px;
+
+}
+
+.card-count {
+  margin-left: 10px;
+}
+
+.custom-image {
+  height: 12px;
+  width: 17px;
+  margin-top: 7px;
+
+}
